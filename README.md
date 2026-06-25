@@ -32,10 +32,16 @@ Built visualizations of sales trends and top-selling items
 
 # Visualiastion
 
-## Project structure
+# Project structure
 ├── data/
 │   ├── dirty_cafe_sales.csv      # raw data
 │   └── clean_cafe_sales.csv      # cleaned data
+├── notebooks
+    ├── EDA_cafe_sales.ipynb       # main notebook
+│   └── cafe_cleaning_version_2    # cleaning example
 ├── images/                        # charts for README
-├── analysis_cafe_sales.ipynb      # main notebook
 └── README.md
+
+
+# Tech Stack
+Python / pandas / NumPy / matplotlib
