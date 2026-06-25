@@ -1,12 +1,10 @@
-# Analysis_Cafe_Sales
-Cafe Sales - Dirty Data for Cleaning Training
+# Cafe Sales - data cleaning & visualisation
+Project involving the cleaning of a “dirty” dataset of cafe sales.
+The goal is to practice data wrangling using realistic data that contains missing values and errors.
 
 Link: https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training
 
-# About Dataset
-Dirty Cafe Sales Dataset
-Overview
-
+# About dataset
 The Dirty Cafe Sales dataset contains 10,000 rows of synthetic data representing sales transactions in a cafe. This dataset is intentionally "dirty," with missing values, inconsistent data, and errors introduced to provide a realistic scenario for data cleaning and exploratory data analysis (EDA). It can be used to practice cleaning techniques, data wrangling, and feature engineering.
 File Information
 
@@ -24,3 +22,20 @@ File Information
 | Payment Method | The method of payment used. May contain missing or invalid values (e.g., None, "UNKNOWN"). | Cash, Credit Card |
 | Location | The location where the transaction occurred. May contain missing or invalid values. | In-store, Takeaway |
 | Transaction Date | The date of the transaction. May contain missing or incorrect values. | 2023-01-01 |
+
+# What was done
+Replaced ERROR / UNKNOWN with NaN
+Converted numeric columns to proper types (float)
+Recovered missing values using Total = Quantity × Price Per Unit
+Parsed dates (pd.to_datetime) and engineered features (month, weekday)
+Built visualizations of sales trends and top-selling items
+
+# Visualiastion
+
+## Project structure
+├── data/
+│   ├── dirty_cafe_sales.csv      # raw data
+│   └── clean_cafe_sales.csv      # cleaned data
+├── images/                        # charts for README
+├── analysis_cafe_sales.ipynb      # main notebook
+└── README.md
