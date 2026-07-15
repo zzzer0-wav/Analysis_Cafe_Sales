@@ -4,7 +4,7 @@ The goal is to practice data wrangling using realistic data that contains missin
 
 Link: https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training
 
-# About dataset
+## About dataset
 The Dirty Cafe Sales dataset contains 10,000 rows of synthetic data representing sales transactions in a cafe. This dataset is intentionally "dirty," with missing values, inconsistent data, and errors introduced to provide a realistic scenario for data cleaning and exploratory data analysis (EDA). It can be used to practice cleaning techniques, data wrangling, and feature engineering.
 File Information
 
@@ -23,35 +23,42 @@ File Information
 | Location | The location where the transaction occurred. May contain missing or invalid values. | In-store, Takeaway |
 | Transaction Date | The date of the transaction. May contain missing or incorrect values. | 2023-01-01 |
 
-# What was done
+## What was done
 Replaced ERROR / UNKNOWN with NaN
 Converted numeric columns to proper types (float)
 Recovered missing values using Total = Quantity × Price Per Unit
 Parsed dates (pd.to_datetime) and engineered features (month, weekday)
 Built visualizations of sales trends and top-selling items
 
-# Conclusions
+## Conclusions
 
 After cleaning, the dataset shrank from 10,000 to ~8,500 valid rows. Key findings: Coffee and Tea are the top-selling items by volume. In-store transactions dominate over Takeaway. Sales peak on weekdays, with a slight dip on weekends. Cash and Credit Card are the most common payment methods. Most transactions are single-item purchases with low total spend. Missing values were concentrated in Item, Quantity, and Price Per Unit columns — many were recoverable using the Total = Quantity × Price Per Unit formula.
 
-# Future Improvements
+## Future Improvements
 
 Add time-series analysis to detect seasonal trends across months. Cluster customers by spending patterns using K-Means. Build a simple demand forecasting model (e.g. LinearRegression on weekday/month features). Enrich the dataset with weather data to see if weather affects sales. Create an interactive dashboard (Plotly/Dash) for live sales monitoring.
 
-# Visualization
+## Visualization
 
 Sales trend by month (line chart), top-selling items by quantity (bar chart), revenue by payment method (bar chart), transaction count by location (pie chart), weekday vs weekend sales comparison (bar chart).
 
-# Project structure
+## Project structure
 ├── data/
+
 │   ├── dirty_cafe_sales.csv      # raw data
+
 │   └── clean_cafe_sales.csv      # cleaned data
+
 ├── notebooks
-    ├── EDA_cafe_sales.ipynb       # main notebook
+
+|   ├── EDA_cafe_sales.ipynb       # main notebook
+    
 │   └── cafe_cleaning_version_2    # cleaning example
+
 ├── images/                        # charts for README
+
 └── README.md
 
 
-# Tech Stack
+## Tech Stack
 Python / pandas / NumPy / matplotlib
