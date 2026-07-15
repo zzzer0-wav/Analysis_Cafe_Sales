@@ -30,7 +30,17 @@ Recovered missing values using Total = Quantity × Price Per Unit
 Parsed dates (pd.to_datetime) and engineered features (month, weekday)
 Built visualizations of sales trends and top-selling items
 
-# Visualiastion
+# Conclusions
+
+After cleaning, the dataset shrank from 10,000 to ~8,500 valid rows. Key findings: Coffee and Tea are the top-selling items by volume. In-store transactions dominate over Takeaway. Sales peak on weekdays, with a slight dip on weekends. Cash and Credit Card are the most common payment methods. Most transactions are single-item purchases with low total spend. Missing values were concentrated in Item, Quantity, and Price Per Unit columns — many were recoverable using the Total = Quantity × Price Per Unit formula.
+
+# Future Improvements
+
+Add time-series analysis to detect seasonal trends across months. Cluster customers by spending patterns using K-Means. Build a simple demand forecasting model (e.g. LinearRegression on weekday/month features). Enrich the dataset with weather data to see if weather affects sales. Create an interactive dashboard (Plotly/Dash) for live sales monitoring.
+
+# Visualization
+
+Sales trend by month (line chart), top-selling items by quantity (bar chart), revenue by payment method (bar chart), transaction count by location (pie chart), weekday vs weekend sales comparison (bar chart).
 
 # Project structure
 ├── data/
