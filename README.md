@@ -5,6 +5,7 @@ The goal is to practice data wrangling using realistic data that contains missin
 ![Python](https://img.shields.io/badge/Python-3.12.13-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.2.2-150458?logo=pandas)
 [![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-orange?logo=matplotlib)
 
 ## About dataset
 The Dirty Cafe Sales dataset contains 10,000 rows of synthetic data representing sales transactions in a cafe. This dataset is intentionally "dirty," with missing values, inconsistent data, and errors introduced to provide a realistic scenario for data cleaning and exploratory data analysis (EDA). It can be used to practice cleaning techniques, data wrangling, and feature engineering.
