@@ -2,12 +2,9 @@
 Project involving the cleaning of a “dirty” dataset of cafe sales.
 The goal is to practice data wrangling using realistic data that contains missing values and errors.
 
-## Badges
-Python ver 3.12.13
-
-Pandas ver 2.2.2
-
-Kaggle link: https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training
+![Python](https://img.shields.io/badge/Python-3.12.13-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.2.2-150458?logo=pandas)
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
 
 ## About dataset
 The Dirty Cafe Sales dataset contains 10,000 rows of synthetic data representing sales transactions in a cafe. This dataset is intentionally "dirty," with missing values, inconsistent data, and errors introduced to provide a realistic scenario for data cleaning and exploratory data analysis (EDA). It can be used to practice cleaning techniques, data wrangling, and feature engineering.
@@ -45,7 +42,11 @@ Add time-series analysis to detect seasonal trends across months. Cluster custom
 
 ## Visualization
 
-Sales trend by month (line chart), top-selling items by quantity (bar chart), revenue by payment method (bar chart), transaction count by location (pie chart), weekday vs weekend sales comparison (bar chart).
+Sales trend by season (bar chart), top-selling items by quantity (bar chart), revenue by payment method (pie chart), transaction count by location (pie chart), weekday vs weekend sales comparison (bar chart).
+<img width="1272" height="775" alt="изображение" src="https://github.com/user-attachments/assets/09d71921-28a9-4fc5-a6eb-7716a674922c" />
+<img width="1272" height="771" alt="изображение" src="https://github.com/user-attachments/assets/1b6bd68b-dffd-431f-8ebc-c854bb10e6db" />
+
+Tableau link: https://public.tableau.com/app/profile/emilian.pohorodnii/viz/CaseSalesproject1/Overview?publish=yes
 
 ## Project structure
 ├── data/
