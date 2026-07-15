@@ -42,9 +42,11 @@ Add time-series analysis to detect seasonal trends across months. Cluster custom
 
 ## Visualization
 
-Sales trend by season (bar chart), top-selling items by quantity (bar chart), revenue by payment method (pie chart), transaction count by location (pie chart), weekday vs weekend sales comparison (bar chart).
-<img width="1272" height="775" alt="изображение" src="https://github.com/user-attachments/assets/09d71921-28a9-4fc5-a6eb-7716a674922c" />
-<img width="1272" height="771" alt="изображение" src="https://github.com/user-attachments/assets/1b6bd68b-dffd-431f-8ebc-c854bb10e6db" />
+Sales trend by season (line chart), top-selling items by revenue/quantity (bar chart), revenue by payment method (pie chart), transaction count by location (box plot), weekday vs weekend sales comparison (heatmap).
+![Tableau1](images/Tableau1.png)
+![Tableau2](images/Tableau2.png)
+![Matplotlib1](images/matplotlib1.png)
+![Matplotlib2](images/matplotlib2.png)
 
 Tableau link: https://public.tableau.com/app/profile/emilian.pohorodnii/viz/CaseSalesproject1/Overview?publish=yes
 
